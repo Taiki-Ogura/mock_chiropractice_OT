@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>和みリラクゼーションサロンHeart-整体・骨盤矯正・美肌ラボ-</title>
+    <meta name="description" content="ディスクリプションを入力" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/css/6-1-7.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="inner-header">
+        <img alt="" src="./images/logo.png" />
+      </div>
+    </header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="./index.html">ホーム</a></li>
+        <li><a href="#courses">コース・料金</a></li>
+        <li><a href="#about">Heartについて</a></li>
+        <li><a href="./booking.html">ご予約</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="reserve_section">
+        <h3>お名前</h3>
+        <input type="text" id="fname" name="firstname" placeholder="山田" />
+
+        <input type="text" id="lname" name="lastname" placeholder="太郎" />
+        <h3>お名前(カナ)</h3>
+        <input type="text" id="fname" name="firstname" placeholder="ヤマダ" />
+
+        <input type="text" id="lname" name="lastname" placeholder="タロウ" />
+
+        <h3>電話番号(必須)</h3>
+        <input type="text" id="lname" name="phone" placeholder="09012341234" />
+        <h3>メールアドレス(必須)</h3>
+
+        <input
+          type="text"
+          id="lname"
+          name="phone"
+          placeholder="example@example.com"
+        />
+        <h3>ご予約希望日時</h3>
+
+        <input type="date" placeholder="example@example.com" />
+        <input type="time" placeholder="example@example.com" />
+
+        <a href="" class="btn btn--orange">予約する</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 リラクゼーションサロン</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/js/6-1-7.js"></script>
+    <script>
+      $(".slider").slick({
+        autoplay: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<div class="slick-prev"></div>',
+        nextArrow: '<div class="slick-next"></div>',
+        centerMode: true,
+        variableWidth: true,
+        dots: true,
+      });
+    </script>
+  </body>
+</html>
